@@ -9,6 +9,7 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  base:'/random_restaurant/',
   build: {
     outDir: 'build', // 默認是 'dist'
   },
