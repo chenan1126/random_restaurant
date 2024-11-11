@@ -10,7 +10,4 @@ export default defineConfig({
     },
   },
   base:'/random_restaurant/',
-  build: {
-    outDir: 'build', // 默認是 'dist'
-  },
 })
